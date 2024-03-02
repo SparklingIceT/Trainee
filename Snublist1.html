@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ballot</title>
+        <link rel="stylesheet" href="Snublist.css">
+    </head>
+    <body>
+        <div class="Ranking">
+            <span id="Player1" class="Zeile1 Playername"></span>
+            <span id="Player2" class="Zeile2 Playername"></span>
+            <span id="Player3" class="Zeile3 Playername"></span>
+            <span id="Player4" class="Zeile4 Playername"></span>
+            <span id="Player5" class="Zeile5 Playername"></span>
+            <span id="Player6" class="Zeile6 Playername"></span>
+            <span id="Player7" class="Zeile7 Playername"></span>
+            <span id="Player8" class="Zeile8 Playername"></span>
+            <span id="Player9" class="Zeile9 Playername"></span>
+            <span id="Player10" class="Zeile10 Playername"></span>
+            <span id="Player11" class="Zeile11 Playername"></span>
+            <span id="Player12" class="Zeile12 Playername"></span>
+            <span id="Player13" class="Zeile13 Playername"></span>
+            <span id="Player14" class="Zeile14 Playername"></span>
+            <span id="Player15" class="Zeile15 Playername"></span>
+            <span id="Player16" class="Zeile16 Playername"></span>
+            <span id="Score1" class="Zeile2 Score"></span>
+            <span id="Score2" class="Zeile3 Score"></span>
+            <span id="Score3" class="Zeile4 Score"></span>
+            <span id="Score4" class="Zeile5 Score"></span>
+            <span id="Score5" class="Zeile6 Score"></span>
+            <span id="Score6" class="Zeile7 Score"></span>
+            <span id="Score7" class="Zeile8 Score"></span>
+            <span id="Score8" class="Zeile9 Score"></span>
+            <span id="Score9" class="Zeile10 Score"></span>
+            <span id="Score10" class="Zeile11 Score"></span>
+            <span id="Score11" class="Zeile12 Score"></span>
+            <span id="Score12" class="Zeile13 Score"></span>
+            <span id="Score13" class="Zeile14 Score"></span>
+            <span id="Score14" class="Zeile15 Score"></span>
+            <span id="Score15" class="Zeile16 Score"></span>
+        </div>
+
+        <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="Updater.js"></script>
+        <script>
+            const settings = {
+                'string' : {
+                    'A33' : 'Player1',
+                    'A34' : 'Player2',
+                    'A35' : 'Player3',
+                    'A36' : 'Player4',
+                    'A37' : 'Player5',
+                    'A38' : 'Player6',
+                    'A39' : 'Player7',
+                    'A40' : 'Player8',
+                    'A41' : 'Player9',
+                    'A42' : 'Player10',
+                    'A43' : 'Player11',
+                    'A44' : 'Player12',
+                    'A45' : 'Player13',
+                    'A46' : 'Player14',
+                    'A47' : 'Player15',
+                    'A48' : 'Player16',
+                    'A64' : 'Score1',
+                    'A65' : 'Score2',
+                    'A66' : 'Score3',
+                    'A67' : 'Score4',
+                    'A68' : 'Score5',
+                    'A69' : 'Score6',
+                    'A70' : 'Score7',
+                    'A71' : 'Score8',
+                    'A72' : 'Score9',
+                    'A73' : 'Score10',
+                    'A74' : 'Score11',
+                    'A75' : 'Score12',
+                    'A76' : 'Score13',
+                    'A77' : 'Score14',
+                    'A78' : 'Score15',
+                }
+            };
+            const spreadsheetID = '1LAm59KaCZLcd7BB7YkBOn5Np4F5tpG2ohUrGGtpSHeU'
+            const worksheetName = 'OUTPUT';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+    </body>
+</html>

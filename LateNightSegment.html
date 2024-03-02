@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Segmente</title>
+        <link rel="stylesheet" href="LateNightSegment.css">
+    </head>
+    <body>
+        <div>
+            <img src="green.png">
+        </div>
+        <div class="Titel">
+            <span id="Obertitel" class="Zeile1 Title"></span>
+            <span id="Untertitel" class="Zeile2 Title"></span>
+        </div>
+
+        <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="Updater.js"></script>
+        <script>
+            const settings = {
+                'string' : {
+                    'C5' : 'Obertitel',
+                    'D5' : 'Untertitel',
+                }
+            };
+            const spreadsheetID = '16hCau5BnXvT2Pf_t1VszY3uvi3-EXOIvKlQ7h8oEuRs'
+            const worksheetName = 'INPUT';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+    </body>
+</html>

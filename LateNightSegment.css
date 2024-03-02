@@ -1,0 +1,53 @@
+@font-face {
+    font-family: sparkle1;
+    font-style: normal;
+    src: url(Starburst.ttf);
+}
+@font-face {
+    font-family: sparkle2;
+    font-style: normal;
+    src: url(QUEER___.TTF);
+}
+@font-face {
+    font-family: sparkle3;
+    font-style: normal;
+    src: url(celestial.ttf);
+}
+@font-face {
+    font-family: sparkle4;
+    font-style: normal;
+    src: url(Stars.ttf);
+}
+body {
+    margin: 0px auto;
+    overflow: hidden;
+    font-family: sparkle3;
+    text-transform: uppercase;
+}
+.Titel {
+font-size: 100px;
+}
+.Title {
+    color: white;
+    text-align: left;
+    left: 460px;
+    text-transform: uppercase;
+    width: 1000px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:  nowrap;
+    position: absolute;
+}
+.Zeile1 {
+    position: absolute;
+    top: 900px;
+    color: #f77f00;
+    text-align: center;
+}
+.Zeile2 {
+    position: absolute;
+    top: 1000px;
+    font-size: 50px;
+    left: 490px;
+    text-align: center;
+    }

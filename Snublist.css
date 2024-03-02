@@ -1,0 +1,110 @@
+@font-face {
+    font-family: condensed;
+    font-style: normal;
+    src: url(ROC_GROTESK_CONDENSED_MEDIUM.otf);
+}
+@font-face {
+    font-family: extrabold;
+    font-style: normal;
+    src: url(ROC_GROTESK_EXTRABOLD_WIDE.otf);
+}
+body {
+    margin: 0px auto;
+    overflow: hidden;
+    font-family: condensed;
+    text-transform: uppercase;
+}
+.Ranking {
+font-size: 30px;
+}
+.Playername {
+    color: white;
+    text-align: left;
+    left: 800px;
+    text-transform: uppercase;
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:  nowrap;
+    position: absolute;
+}
+.Score {
+    color: #eebb30;
+    text-align: left;
+    left: 1060px;
+    text-transform: uppercase;
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:  nowrap;
+    position: absolute;
+}
+
+.Zeile1 {
+    position: absolute;
+    top: 420px;
+    font-size: 46px;
+    color: #eebb30;
+    text-align: center;
+    left: 645px;
+}
+.Zeile2 {
+    position: absolute;
+    top: 485px;
+    }
+.Zeile3 {
+position: absolute;
+top: 520px;
+}
+.Zeile4 {
+    position: absolute;
+    top: 555px;
+}
+.Zeile5 {
+    position: absolute;
+    top: 590px;
+}
+.Zeile6 {
+    position: absolute;
+    top: 625px;
+}
+.Zeile7 {
+    position: absolute;
+    top: 660px;
+}
+.Zeile8 {
+    position: absolute;
+    top: 695px;
+}
+.Zeile9 {
+    position: absolute;
+    top: 730px;
+}
+.Zeile10 {
+    position: absolute;
+    top: 765px;
+}
+.Zeile11 {
+    position: absolute;
+    top: 800px;
+}
+.Zeile12 {
+    position: absolute;
+    top: 835px;
+}
+.Zeile13 {
+    position: absolute;
+    top: 870px;
+}
+.Zeile14 {
+    position: absolute;
+    top: 905px;
+}
+.Zeile15 {
+    position: absolute;
+    top: 940px;
+}
+.Zeile16 {
+    position: absolute;
+    top: 975px;
+}
